@@ -6,6 +6,7 @@ const port = 4000;
 
 const app = express();
 
+app.use(express.json());
 app.use("/api/hubs", hubsRoute);
 
 app.get("/", (req, res) => {
