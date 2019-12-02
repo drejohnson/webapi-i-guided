@@ -1,2 +1,18 @@
-
 GET http://localhost:4000
+
+###
+
+GET http://localhost:4000/api/hubs
+
+###
+
+POST http://localhost:4000/api/hubs
+Content-Type: application/json
+
+{
+  "name": "api-5"
+}
+
+###
+
+DELETE http://localhost:4000/api/hubs/5
