@@ -2,9 +2,9 @@
   "name": "node-api1-guided",
   "version": "1.0.0",
   "description": "Node API 1 Guided Project",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "server": "nodemon index.js",
+    "server": "nodemon index.mjs",
     "db:latest": "knex migrate:latest",
     "seeds": "knex seed:run"
   },
@@ -28,6 +28,7 @@
     "nodemon": "^2.0.1"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.20.3",
     "sqlite3": "^4.1.0"
   }
